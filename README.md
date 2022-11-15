@@ -1,1 +1,2 @@
-# html-css-discord
+CSS - Discord
+1. Inizializzo il tutto.
