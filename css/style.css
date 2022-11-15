@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.white {
+    color: white;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -15,7 +19,6 @@ header {
 }
 
 header > div:nth-child(1) {
-    height: 50px;
     margin: auto;
     width: 64%;
 }
@@ -24,22 +27,16 @@ header > div:nth-child(1) {
     display: flex;
 }
 
-.flexbox > .flexitem1, .flexitem10, .flexitem11 {
-    font-size: 25px;
-}
-
-.flexbox > .flexitem1 {
+.flexitem1 {
     justify-content: flex-start;
     align-items: center;
-    display: flex;
     width: 20%;
     padding-left: 10px;
 }
 
-.flexbox > .flexitem2 {
+.flexitem2 {
     justify-content: center;
     align-items: center;
-    display: flex;
     width: 60%;
 }
 
@@ -52,20 +49,18 @@ header > div:nth-child(1) {
     padding: 20px;
 }
 
-.flexitem2 li a:hover {
+.flexitem2 li a:hover, .flexitem9 li a:hover {
     text-decoration: underline;
 }
 
 a {
     text-decoration: none;
-    color: white;
     font-weight: 500;
 }
 
-.flexbox > .flexitem3 {
+.flexitem3 {
     justify-content: flex-end;
     align-items: center;
-    display: flex;
     width: 20%;
     padding-right: 10px;
 }
@@ -93,19 +88,17 @@ main > div:nth-child(1) {
 
 .flexitem4 > h1 {
     font-weight: 900;
-    color: white;
     font-size: 60px;
     margin-bottom: 50px;
 }
 
 .flexitem4 > p {
     font-weight: 500;
-    color: white;
     font-size: 20px;
 }
 
 .flexitem4 > p > span {
-    padding: 7px;
+    padding: 6px 0;
     display: inline-block;
 }
 
@@ -121,10 +114,9 @@ main > div:nth-child(1) {
 
 #blackb {
     background-color: black;
-    color: white;
 }
 
-main > div:nth-child(2) {
+main > div:nth-child(2), main > div:nth-child(4) {
     background-color: #ffffff;
     height: 650px;
     justify-content: center;
@@ -133,7 +125,6 @@ main > div:nth-child(2) {
 
 .flexitem5 {
     width: 64%;
-    display: flex;
     height: 80%;
     justify-content: center;
 }
@@ -165,7 +156,6 @@ main > div:nth-child(3) {
 
 .flexitem6 {
     width: 64%;
-    display: flex;
     height: 80%;
     justify-content: center;
     flex-direction: row-reverse;
@@ -185,16 +175,8 @@ main > div:nth-child(3) {
     margin-top: 20px;
 }
 
-main > div:nth-child(4) {
-    background-color: #ffffff;
-    height: 650px;
-    justify-content: center;
-    align-items: center;
-}
-
 .flexitem7 {
     width: 64%;
-    display: flex;
     height: 80%;
     justify-content: center;
 }
@@ -245,7 +227,6 @@ main > div:nth-child(5) {
 
 #purpleb {
     background-color: #8ea1e1;
-    color: white;
 }
 
 main > div:nth-child(6) {
@@ -257,7 +238,6 @@ main > div:nth-child(6) {
 
 .flexitem9 {
     width: 65%;
-    display: flex;
     height: 75%;
     justify-content: center;
 }
@@ -268,21 +248,10 @@ main > div:nth-child(6) {
 }
 
 
-.flexitem9 > div:nth-child(2) {
+.flexitem9 > div:nth-child(2), .flexitem9 > div:nth-child(3), .flexitem9 > div:nth-child(4), .flexitem9 > div:nth-child(5) {
     width: calc(100% / 6);    
 }
 
-.flexitem9 > div:nth-child(3) {
-    width: calc(100% / 6);    
-}
-
-.flexitem9 > div:nth-child(4) {
-    width: calc(100% / 6);   
-}
-
-.flexitem9 > div:nth-child(5) {
-    width: calc(100% / 6);   
-}
 
 .flexitem9 > div > ul {
     list-style: none;
@@ -312,30 +281,31 @@ footer > div:nth-child(1) {
     align-items: center;
 }
 
-.flexitem9 li a:hover {
-    text-decoration: underline;
-}
-
 .purple {
     color: #7289da;
 }
 
 select {
     background-color: #23272a;
-    color: white;
     border: 0;
     margin-top: 25px;
 }
 
 #symbols {
     margin-top: 30px;
-    color: white;
 }
 
 i {
     margin-right: 15px;
     font-size: 22px;
 }
+
+#ita {
+    height: 15px;
+    vertical-align: middle;
+}
+
+
 
 
 
