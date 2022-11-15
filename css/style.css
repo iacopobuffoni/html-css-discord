@@ -28,10 +28,6 @@ header > div:nth-child(1) {
     font-size: 25px;
 }
 
-.flexbox > .flexitem8 {
-    border: 2px dashed black;
-}
-
 .flexbox > .flexitem1 {
     justify-content: flex-start;
     align-items: center;
@@ -219,16 +215,35 @@ main > div:nth-child(4) {
 
 main > div:nth-child(5) {
     background-color: #f6f6f6;
-    height: 1500px;
+    height: 1400px;
     justify-content: center;
     align-items: center;
 }
 
 .flexitem8 {
-    background-image: url(../img/item4-big.svg);
-    width: 65%;
-    height: 55%;
+    width: 55%;
+    height: 50%;
     background-size: contain;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.flexitem8 > p {
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.flexitem8 > img:first-of-type {
+    width: 100%;
+}
+
+#avventura {
+    font-size: 30px;
+}
+
+#purpleb {
+    background-color: #8ea1e1;
+    color: white;
 }
 
 main > div:nth-child(6) {
