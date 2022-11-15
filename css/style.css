@@ -17,7 +17,7 @@ header {
 header > div:nth-child(1) {
     height: 50px;
     margin: auto;
-    width: 65%;
+    width: 64%;
 }
 
 .flexbox {
@@ -136,33 +136,39 @@ main > div:nth-child(2) {
 }
 
 .flexitem5 {
-    width: 65%;
+    width: 64%;
     display: flex;
     height: 80%;
     justify-content: center;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 .flexitem5 > div:nth-child(1) {
     width: 60%;
-    background-color: #1e90ff;
-    border: 2px dashed black;
 }
 
 .flexitem5 > div:nth-child(2) {
     width: 40%;
-    background-color: #ffc0cb;
-    border: 2px dashed black;    
+    padding: 30px 60px;   
+}
+
+.flexitem5 > div > p {
+    font-size: 21px;
+    margin-top: 20px;
 }
 
 main > div:nth-child(3) {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
     height: 650px;
     justify-content: center;
     align-items: center;
 }
 
 .flexitem6 {
-    width: 65%;
+    width: 64%;
     display: flex;
     height: 80%;
     justify-content: center;
@@ -171,14 +177,16 @@ main > div:nth-child(3) {
 
 .flexitem6 > div:nth-child(1) {
     width: 60%;
-    background-color: #1e90ff;
-    border: 2px dashed black;
 }
 
 .flexitem6 > div:nth-child(2) {
     width: 40%;
-    background-color: #ffc0cb;
-    border: 2px dashed black;    
+    padding: 30px 60px;   
+}
+
+.flexitem6 > div > p {
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 main > div:nth-child(4) {
@@ -189,7 +197,7 @@ main > div:nth-child(4) {
 }
 
 .flexitem7 {
-    width: 65%;
+    width: 64%;
     display: flex;
     height: 80%;
     justify-content: center;
@@ -197,27 +205,30 @@ main > div:nth-child(4) {
 
 .flexitem7 > div:nth-child(1) {
     width: 60%;
-    background-color: #1e90ff;
-    border: 2px dashed black;
 }
 
 .flexitem7 > div:nth-child(2) {
     width: 40%;
-    background-color: #ffc0cb;
-    border: 2px dashed black;    
+    padding: 30px 60px;  
+}
+
+.flexitem7 > div > p {
+    font-size: 21px;
+    margin-top: 20px;
 }
 
 main > div:nth-child(5) {
-    background-color: #d3d3d3;
-    height: 1100px;
+    background-color: #f6f6f6;
+    height: 1500px;
     justify-content: center;
     align-items: center;
 }
 
 .flexitem8 {
-    background-color: #228b22;
+    background-image: url(../img/item4-big.svg);
     width: 65%;
-    height: 90%;
+    height: 55%;
+    background-size: contain;
 }
 
 main > div:nth-child(6) {
