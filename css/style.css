@@ -125,7 +125,7 @@ main > div:nth-child(1) {
     background-color: black;
 }
 
-.flexitem3 button:hover a, .debug .flexitem4 .bwhite:hover a {
+.flexitem3 button:hover a, .flexitem4 .bwhite:hover a {
     color: #5865f2;
 }
 
