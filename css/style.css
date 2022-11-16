@@ -8,6 +8,14 @@
     color: white;
 }
 
+.black {
+    color: black;
+}
+
+.bwhite {
+    background-color: white;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -32,6 +40,7 @@ header > div:nth-child(1) {
     align-items: center;
     width: 20%;
     padding-left: 10px;
+    line-height: 19px;
 }
 
 .flexitem2 {
@@ -114,6 +123,18 @@ main > div:nth-child(1) {
 
 #blackb {
     background-color: black;
+}
+
+.flexitem3 button:hover a, .debug .flexitem4 .bwhite:hover a {
+    color: #5865f2;
+}
+
+.flexitem3 button:hover {
+    background-color: white;
+}
+
+.flexitem3 button {
+    line-height: 19px;
 }
 
 main > div:nth-child(2), main > div:nth-child(4) {
@@ -226,7 +247,7 @@ main > div:nth-child(5) {
 }
 
 #purpleb {
-    background-color: #8ea1e1;
+    background-color: #5865f2;
 }
 
 main > div:nth-child(6) {
@@ -264,7 +285,7 @@ main > div:nth-child(6) {
 }
 
 hr {
-    border: 1px solid #8ea1e1;
+    border: 1px solid #5865f2;
 }
 
 footer {
@@ -282,7 +303,7 @@ footer > div:nth-child(1) {
 }
 
 .purple {
-    color: #7289da;
+    color: #5865f2;
 }
 
 select {
@@ -303,6 +324,11 @@ i {
 #ita {
     height: 15px;
     vertical-align: middle;
+}
+
+.flexitem8 button:hover, .debug .flexitem11 button:hover {
+    background-color: #5865f2;
+    opacity: 0.8;
 }
 
 
